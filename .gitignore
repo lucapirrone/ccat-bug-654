@@ -24,8 +24,8 @@ test_db.db
 # old admin folder
 admin
 
-# plugins are not tracked by git
-core/cat/plugins/*
+# plugins are tracked by git
+
 # plugins readme can stay
 !core/cat/plugins/how-to-write-a-plugin.md
 
@@ -35,3 +35,5 @@ plugin_folder
 # cache embedder
 core/local_cache/*
 
+
+script/import-ts/src/data/cve/
