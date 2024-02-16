@@ -1,0 +1,26 @@
+{
+  "name": "ai-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "npx ts-node src/index.ts",
+    "tuning": "npx ts-node src/fine-tuning.ts",
+    "run:migrate": "npx ts-node src/migrate.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@qdrant/js-client-rest": "^1.7.0",
+    "@types/node": "^20.10.5",
+    "csv-parse": "^5.0.4",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "openai": "^4.24.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
