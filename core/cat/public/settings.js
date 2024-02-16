@@ -13,9 +13,10 @@ catChat.settings = {
         console.log("Callback called.")
         return `${message}`
     },
-    defaults: ['Is everything ok?', 'Who are you?', 'What time is it?', 'What\'s up?', 'Hello Cheshire Cat!'],
-    features: ['record', 'web', 'file', 'reset'],
-    files: ['text/plain', 'application/pdf', 'application/pdf']
+    defaults: ['Ci sono vulnerabilità su Kitty?', 'Quali sono le vulnerabilità di wireshark?'],
+    features: ['reset'],
+    files: [],
+    why: true
 }
 
 catChat.addEventListener("message", ({ detail }) => {
